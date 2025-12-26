@@ -1,4 +1,4 @@
-import brandModel from "../models/brandModel.js";
+import brandModel from "../Models/brandModel.js";
 import { cloudinary, deleteCloudinaryImage } from "../config/cloudinary.js";
 import fs from "fs";
 
