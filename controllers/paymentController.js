@@ -1,6 +1,6 @@
 import Stripe from "stripe";
-import orderModel from "../models/orderModel.js";
-import userModel from "../models/userModel.js";
+import orderModel from "../Models/orderModel.js";
+import userModel from "../Models/userModel.js";
 
 // Initialize Stripe with your secret key
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);

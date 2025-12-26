@@ -1,8 +1,8 @@
 import validator from "validator";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import userModel from "../models/userModel.js";
-import { cloudinary, deleteCloudinaryImage } from "../config/cloudinary.js";
+import userModel from "../Models/userModel.js";
+import { cloudinary, deleteCloudinaryImage } from "../config/Cloudinary.js";
 import fs from "fs";
 
 // Helper function to clean up temporary files

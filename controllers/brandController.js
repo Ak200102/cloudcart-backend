@@ -1,5 +1,5 @@
 import brandModel from "../Models/brandModel.js";
-import { cloudinary, deleteCloudinaryImage } from "../config/cloudinary.js";
+import { cloudinary, deleteCloudinaryImage } from "../config/Cloudinary.js";
 import fs from "fs";
 
 // Helper function to clean up temporary files

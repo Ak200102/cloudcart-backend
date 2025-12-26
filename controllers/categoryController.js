@@ -1,5 +1,5 @@
-import categoryModel from "../models/categoryModel.js";
-import { cloudinary, deleteCloudinaryImage } from "../config/cloudinary.js";
+import categoryModel from "../Models/categoryModel.js";
+import { cloudinary, deleteCloudinaryImage } from "../config/Cloudinary.js";
 import fs from "fs";
 
 // Helper function to clean up temporary files

@@ -1,5 +1,5 @@
 import Contact from "../Models/contactModel.js";
-import userModel from "../models/userModel.js";
+import userModel from "../Models/userModel.js";
 
 // Create a new contact message (for authenticated users)
 export const createContact = async (req, res) => {
