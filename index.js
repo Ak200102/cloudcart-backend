@@ -104,10 +104,10 @@ const startServer = async () => {
     connectCloudinary();      // Cloudinary
 
     app.listen(port, () => {
-      console.log(`🚀 Server running on port ${port}`);
+      console.log(` Server running on port ${port}`);
     });
   } catch (error) {
-    console.error("❌ Server startup error:", error);
+    console.error(" Server startup error:", error);
     process.exit(1);
   }
 };
